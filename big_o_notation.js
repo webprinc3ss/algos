@@ -64,3 +64,14 @@ function addUpTo(n) {
         //Accessing elements in an array (by index) or object(by key) is constant
         //In a loop, the complexity is the length of the loop times the complexity of whatever happens inside the loop
 
+//Space Complexity
+    //primitives are constant space 1 or 10 is constant
+    //strings require O(n) space (where n is the string length)
+    //Reference types are generally O(n)
+
+//Logarithms
+    //  Object(log n) - better than O(n)
+    //  Why important?
+        //Searching algorithms
+        //Efficient sorting
+        //space complexity
