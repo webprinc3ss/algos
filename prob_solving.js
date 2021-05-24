@@ -145,6 +145,7 @@ function charCount(str) {
     for (var char of str) {
         char = char.toLowerCase();
         if (isAlphaNumeric(char)) {
+            char = char.toLowerCase();
             obj[char] = ++obj[char] || 1
         }
     }
@@ -162,3 +163,10 @@ function isAlphaNumeric(char) {
 }
 
 charCodeAt(0)
+
+
+// PROBLEM SOLVING PATTERNS
+//Frequency Counter Pattern
+// Uses object to collect values/frequencies of values to avoid Object(N^2)
+same([1, 2, 3,], [4, 1, 9]) //true
+
